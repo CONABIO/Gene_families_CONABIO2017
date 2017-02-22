@@ -1,4 +1,4 @@
-# Taller "Analysis of gene families identifies evolutionary processes associated with speciation"
+# Taller *Analysis of gene families identifies evolutionary processes associated with speciation*
 
 Instructor: Asis Hallab (asis.hallab@gmail.com)
 Organización: Alicia Mastretta-Yanes (amastretta@conabio.gob.mx) y Asis Hallab.
@@ -8,7 +8,9 @@ En este  taller aprenderemos a realizar análisis de familas génicas a partir d
 Este curso forma parte del Proyecto CONACYT "La variación genética de las plantas cultivadas en México: estrategias para enfrentar el cambio climático". 
 
 29-31 de marzo 2017, de 9 a 14 hrs. 
+
 Sala Xitle, CONABIO. Ciudad de México.
+
 Idioma Español
 
 ## Contenido del curso
