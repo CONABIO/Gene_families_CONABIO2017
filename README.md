@@ -1,6 +1,7 @@
 # Taller *Analysis of gene families identifies evolutionary processes associated with speciation*
 
 Instructor: Asis Hallab (asis.hallab@gmail.com)
+
 Organización: Alicia Mastretta-Yanes (amastretta@conabio.gob.mx) y Asis Hallab.
 
 En este  taller aprenderemos a realizar análisis de familas génicas a partir de genomas completos de plantas. El objetivo de este taller es que los participantes puedan posteriormente aplicar el conocimiento aprendido a estudios de genómica comparada para identificar el papel de genes ortólogos, expansión de familias génicas, repeticiones tandem y selección positiva en procesos evolutivos como especiación y domesticación.
