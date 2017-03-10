@@ -38,7 +38,7 @@ Participants are expected to have fluent knowledge of the Linux command line and
 
 
 ## Inscripciones
-El curso es gratuito pero estará restringido a participantes del proyecto CONACYT mencionado anteriormente y estudiantes extras (externos) que estén interesados en el tema. Las pre-inscripciones se realizarán únicamente via contestar un formulario disponible en [este enlace](https://es.surveymonkey.com/r/RBB2LGJ). La fecha límite para responder es el 10 de marzo del 2017. 
+El curso es gratuito pero estará restringido a participantes del proyecto CONACYT mencionado anteriormente y estudiantes extras (externos) que estén interesados en el tema. Las pre-inscripciones se realizarán únicamente via contestar un formulario disponible en [este enlace](https://es.surveymonkey.com/r/RBB2LGJ). La fecha límite para responder es el **12 de marzo del 2017**. 
 
-Estamos limitados a sólo 15 lugares, por lo que los y las participantes se seleccionarán con base a su motivación y fecha de contestación del formulario. El resultado de la selección se anunciará por correo electrónico a más tardar el 15 de marzo.
+Estamos limitados a sólo 15 lugares, por lo que los y las participantes se seleccionarán con base a su motivación y fecha de contestación del formulario. El resultado de la selección se anunciará por correo electrónico a más tardar el 17 de marzo.
 
