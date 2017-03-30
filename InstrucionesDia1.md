@@ -206,3 +206,22 @@ cluster_1       cluster_1       78      79      77      83      66      149     
 cluster_2       cluster_2       70      106     67      110     1       47      46      10
 cluster_3       cluster_3       39      40      56      93      32      68      34      32
 ```
+# Job submission with SLURM
+Example SLURM template `my_fancy_job_slurm.txt`
+```
+#!/bin/bash
+#SBATCH --job-name my_fancy_job
+#SBATCH -p mucharam
+#SBATCH --ntasks=20
+#SBATCH -o my_fancy_job.out
+#SBATCH -e my_fancy_job.err
+
+command-1 &
+command-2 &
+command-3
+```
+Ojo de que la última fila no tenga un `&` al final.
+
+Meter el job a la fila con `sbatch my_fancy_job_slurm.txt`
+
+Usar el usuario `alicia` (que uds no tienen, nosotros lo correremos).
