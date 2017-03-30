@@ -52,6 +52,18 @@ Usar el paquete `AHRD.on.gene.clusters` para anotar las families con descripcion
 * Bajar la version mas actuál de `interpro.xml` 
 * Crear un script en `exec` que anota las familas y guarda los resultados en una columna adicional de `families.df`. Guardarlo en una imagen binaria de R en `data`
 
+#### Grupo expansion y contracción
+_Depende de los resultados del grupo "cargar familias"_
+
+* requisitos: buen shell y un poco de R
+* dificultad: mediana
+
+Receta:
+* Crear un script en `exec` que genera los archivos input para `cafe`.
+* Correr cafe (puede ser que tengan que hacerlo desde el cafe shell - es muy mamón ese café, pero su shell está estable) Leán abajo la sección "Example CAFE Shell or Script"
+* modificar script `exec/parseCafeResult.R` 
+* documentar todo en el vignette
+
 #### Grupo filogenias de familias
 _Depende de los resultados del grupo "cargar familias"_
 * requisitos: R y un poco de shell
@@ -104,16 +116,6 @@ Receta:
     * `tandems.genes` un vector de los nombres de genes que son tandems de todos los genomas
     * `tandems.lst` una `list` con nombres como `tandem_cluster_12` y values vectores de genes perteneciéndo a ese tandem cluster
 * Ser chingón
-
-### Grupo expansion y contracción
-* requisitos: buen shell y un poco de R
-* dificultad: mediana
-
-Receta:
-* Crear un script en `exec` que genera los archivos input para `cafe`.
-* Correr cafe (puede ser que tengan que hacerlo desde el cafe shell - es muy mamón ese café, pero su shell está estable) Leán abajo la sección "Example CAFE Shell or Script"
-* modificar script `exec/parseCafeResult.R` 
-* documentar todo en el vignette
 
 ### Grupo selección 
 * requisitos: R y shell
