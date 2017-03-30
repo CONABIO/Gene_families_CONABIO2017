@@ -52,18 +52,6 @@ Usar el paquete `AHRD.on.gene.clusters` para anotar las families con descripcion
 * Bajar la version mas actuál de `interpro.xml` 
 * Crear un script en `exec` que anota las familas y guarda los resultados en una columna adicional de `families.df`. Guardarlo en una imagen binaria de R en `data`
 
-#### Grupo expansion y contracción
-_Depende de los resultados del grupo "cargar familias"_
-
-* requisitos: buen shell y un poco de R
-* dificultad: mediana
-
-Receta:
-* Crear un script en `exec` que genera los archivos input para `cafe`.
-* Correr cafe (puede ser que tengan que hacerlo desde el cafe shell - es muy mamón ese café, pero su shell está estable) Leán abajo la sección "Example CAFE Shell or Script"
-* modificar script `exec/parseCafeResult.R` 
-* documentar todo en el vignette
-
 #### Grupo filogenias de familias
 _Depende de los resultados del grupo "cargar familias"_
 * requisitos: R y un poco de shell
@@ -91,6 +79,18 @@ Receta:
 * Correr FastTree
 * Calibrar el resultado a que sea un Ultrametric tree. Usar el ejemplo al final de este documento ("Ultrametric tree example code"). Para esto editar el archivo `DESCRIPTION` en el paquete `GeneFamilies` y añadir el paquete `phangorn` como nuevo requisito.
 * Documentar todo en la vignette
+
+### Grupo expansion y contracción
+_Depende de los resultados del grupo "cargar familias" y "ortólogos"_
+
+* requisitos: buen shell y un poco de R
+* dificultad: mediana
+
+Receta:
+* Crear un script en `exec` que genera los archivos input para `cafe`.
+* Correr cafe (puede ser que tengan que hacerlo desde el cafe shell - es muy mamón ese café, pero su shell está estable) Leán abajo la sección "Example CAFE Shell or Script"
+* modificar script `exec/parseCafeResult.R` 
+* documentar todo en el vignette
 
 ### Grupo Tandems
 _Depende de los resultados del grupo "Ortólogos" y "cargar familias"_
