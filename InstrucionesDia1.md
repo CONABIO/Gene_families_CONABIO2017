@@ -27,17 +27,20 @@ Trabajos para cada grupo:
 * Requisitos: R and command line
 * dificultad: básica 
 
-Cargar las familias de genes. Adaptar el script `exec/loadGeneFamilies.R` para formar un `data.frame` que tenga este formato: 
-```
-id ath  C.rubella C.hirsuta A.arabicum B.rapa
-cluster_1         78       79        77        83         66    149
-```
-Guardar _todos_ los objetos creado en el script en una imagen binaria de R.
-Crear un script parecido que cargue y guarde los annotaciones de InterPro de las diferentes genomas, y al final crear un `all.ipr` conteniendo todos `ath.ipr`, ..., `fva.ipr` concatonados. Formato:
-```
-V1        V2
-AT1G17600.1 IPR000157
-```
+Receta:
+* Cargar las familias de genes. Adaptar el script `exec/loadGeneFamilies.R` para formar un `data.frame` que tenga este formato: 
+    ```
+    id        ath cla cme csa fve
+    cluster_1 78  79  77  83  66
+    ```
+    Guardar _todos_ los objetos creado en el script en una imagen binaria de R.
+* Leer, entender u modificar el script `exec/exec/loadInterProData.R` con el final de cargar las anotaciónes de InterPro. Crear un objeto `all.ipr` conteniendo todos `ath.ipr`, ..., `fva.ipr` concatonados. Formato:
+    ```
+    V1        V2
+    AT1G17600.1 IPR000157
+    ```
+* Guardor aquellos objetos en formato binario en `data`
+* Documentar todo en la vignette
 
 #### Grupo anotación de familias con función
 _Depende de los resultados del grupo "cargar familias"_
@@ -58,7 +61,7 @@ Usar las funciones del paquete `GeneFamilies` para correr para cada familia el "
 
 ### Grupo Ortólogos
 * Requisitos: Shell y un poquito de R
-* Dificultad: Avanzado
+* Dificultad: avanzada
 
 Seguir la vignette `GeneFamilies`: 
 * Realizar búsquedas bidireccionales entre cada pareja de genomas, con Arabidopsis siendo el de anclage.
@@ -68,7 +71,7 @@ Seguir la vignette `GeneFamilies`:
 #### Grupo Species Tree
 _Depende de los resultados del grupo "Ortólogos"_
 * Requisitos: R y shell
-* Dificultad: Avanzado
+* Dificultad: avanzada
 
 Receta:
 * Alienar las secuencias de amino ácidos de cada grupo de proteínas ortólogas con Mafft. _Ojo_: Reemplazar los nombres de los genes con los nombres de la especia antes de correr Mafft. Siempre tener el mismo orden de las especia en cada alineamiento (MSA). Crean un script en `exec` que genera los input para mafft.
