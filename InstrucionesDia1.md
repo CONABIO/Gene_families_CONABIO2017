@@ -19,7 +19,7 @@ Formar grupos para hacer sacrificios humanos para Tezcatlipoca y su madre, que s
 
 Trabajos para cada grupo:
 
-* En un `HOME` de un usuario `gen[0-21]` del grupo clonar el repositorio git `https://github.com/asishallab/GeneFamilies`. Allí crear un git branch llamado como la chamba (seleccionar de abajo) de su grupo y trabajar _solo_ allí. 
+* En `project` de tlaloc del grupo clonar el repositorio git `https://github.com/asishallab/GeneFamilies`. Allí crear un git branch llamado como la chamba (seleccionar de abajo) de su grupo y trabajar _solo_ allí. 
 
 ## Chambas para repartir entre grupos
 
